@@ -1,4 +1,4 @@
-import './App.scss';
+import './App.css';
 import GamePage from './pages/GamePage/GamePage';
 import background from './assets/background.jpeg'
 import HomePage from './pages/HomePage/HomePage'
