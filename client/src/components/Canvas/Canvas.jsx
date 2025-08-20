@@ -1,4 +1,4 @@
-import "./canvas.styles.scss";
+import "./canvas.styles.css";
 import { useContext, useEffect, useRef } from "react";
 import { CanvasContext } from "../../contexts/CanvasContext";
 import { GameContext } from "../../contexts/GameContext";
