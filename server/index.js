@@ -11,7 +11,7 @@ const game = new Game();
 app.use(cors({
   origin: [
     'http://localhost:5173', // allow local dev
-    'https://skribble-clone.netlify.app' // allow production
+    
   ],
   credentials: true
 }));
@@ -22,7 +22,7 @@ const io = new Server(server, {
   cors: {
     origin: [
     'http://localhost:5173', // allow local dev
-    'https://skribble-clone.netlify.app' // allow production
+    
   ],
     methods: ["GET", "POST"],
   },
