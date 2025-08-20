@@ -1,4 +1,4 @@
-import "./homepage.scss";
+import "./homepage.css";
 import logo from "../../assets/logo.png";
 import greaterThan from "../../assets/greater_than.png";
 import lessThan from "../../assets/less_than.png";
