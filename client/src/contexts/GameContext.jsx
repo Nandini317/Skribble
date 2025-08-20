@@ -2,7 +2,7 @@ import { createContext, useState } from "react";
 
 import { io } from "socket.io-client";
 
-// const socket = io.connect("https://skribbl-backend-pkuy.onrender.com/");
+
 const socket = io("http://localhost:3001");
 
 export const GameContext = createContext({
