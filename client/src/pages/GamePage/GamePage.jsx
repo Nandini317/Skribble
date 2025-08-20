@@ -7,7 +7,7 @@ import Modal from "../../components/Modal/Modal";
 import { GameContext } from "../../contexts/GameContext";
 import Chat from "../../components/Chat/Chat";
 import { useEffect, useContext } from "react";
-import "./game-page.styles.scss";
+import "./game-page.styles.css";
 import { CanvasContext } from "../../contexts/CanvasContext";
 
 export default function GamePage() {
